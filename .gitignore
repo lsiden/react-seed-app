@@ -2,3 +2,5 @@ node_modules/
 *.lock
 *.log
 .yarnclean
+*.sublime-*
+bundle.js

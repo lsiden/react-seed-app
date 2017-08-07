@@ -7,11 +7,15 @@ const config = {
 	output: {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname, 'build'),
-		publicPath: '/assets/'
+		publicPath: ''
 	},
 	module: {
 		loaders: [
-		{test: /\.js[x]?$/, loader: 'babel-loader', exclude: /node_modules/},
+			{
+				test: /\.js[x]?$/,
+				loader: 'babel-loader',
+				exclude: /node_modules/
+			},
 		]
 	},
 	devServer: {

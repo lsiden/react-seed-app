@@ -4,8 +4,10 @@
   "description": "React Seed App",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "dev-server": "webpack-dev-server"
+    "test": "",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "bundle-server": "python -mSimpleHTTPServer"
   },
   "author": "Lawrence Siden",
   "license": "MIT",
