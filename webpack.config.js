@@ -22,7 +22,9 @@ const config = {
 		contentBase: './build',
 		inline: true,
 	},
-
+	devtool: process.env.NODE_ENV === 'prod' ? "source-map" : "eval-source-map",
+	plugins: [
+	],
 };
 
 (function useHtmlWebpackPluginIfFound() {

@@ -1,8 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import AppRoot from './AppRoot'
 
-const AppContent = React.createClass({ render: function () {
-	return React.createElement('div', null, 'React Seed App Here')
-}})
-
-ReactDOM.render(React.createElement(AppContent), document.querySelector('#react-mount'))
+ReactDOM.render(<AppRoot />, document.querySelector('#react-mount'))

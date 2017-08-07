@@ -4,3 +4,4 @@ node_modules/
 .yarnclean
 *.sublime-*
 bundle.js
+bundle.js.map
