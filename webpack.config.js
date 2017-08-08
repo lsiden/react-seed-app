@@ -27,20 +27,4 @@ const config = {
 	],
 };
 
-(function useHtmlWebpackPluginIfFound() {
-	try {
-		const HtmlWebpackPlugin = require('html-webpack-plugin')
-		const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-			template: 'build/index.html',
-			filename: 'index.html',
-			inject: 'body',
-		})
-		config.plugins = !!config.plugins ? config.plugins : []
-		config.plugins.push(HtmlWebpackPluginConfig)
-	} catch (e) {
-		console.log('Didn\'t find html-webpack-plugin.  Ignoring.')
-	}
-})();
-
-
 module.exports = config
