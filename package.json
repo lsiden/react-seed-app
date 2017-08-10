@@ -28,6 +28,11 @@
     "regenerator-runtime": "^0.10.5",
     "webpack-dev-server": "^2.6.1"
   },
+  "babel": {
+    "presets": [
+      "es2015", "react"
+    ]
+  },
   "scripts": {
     "test": "jest",
     "start": "NODE_ENV=dev webpack-dev-server",
