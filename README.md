@@ -1,13 +1,17 @@
 # React Seed App
 
+Bare-bones starter project for a React component using Webpack, Babel, Jest, and Enzyme.
+
+## Description
+
 This is a bare-bones [React](https://facebook.github.io/react/) seed app to get you started.
 It is an alternative to the NPM module [create-react-app](https://github.com/facebookincubator/create-react-app)
 developed by Facebook.
 
 Like other React starter apps,
 it relies on [Webpack](https://github.com/webpack/webpack)
-and [Babel](https://babeljs.io/) to make it browser friendly,
-but not much else.
+and [Babel](https://babeljs.io/) to make it browser friendly.
+It also relies on [Jest](https://facebook.github.io/jest/) and [Enzyme](https://github.com/airbnb/enzyme) for writing tests.
 
 According to its documentation,
 Facebook's *create-react-app* hides the WebPack configuration file
@@ -25,6 +29,12 @@ by installing other packages and updating the line '"test": "jest"' in package.j
 If I need other features and customizations (and I probably will),
 I want to add and configure them myself so that I know where all the skeletons are buried.
 
-## Resources
-* https://smashingboxes.com/blog/learn-react-part-1/
-* https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel
+# See
+
+* [React Components and Properties](https://facebook.github.io/react/docs/components-and-props.html)
+* [Webpack](https://webpack.github.io/)
+* [Babel](https://babeljs.io/)
+* [Jest](https://facebook.github.io/jest/)
+* [Enzyme](https://github.com/airbnb/enzyme)
+* [package.json](https://docs.npmjs.com/files/package.json)
+* [Set Up a React Environment Using Webpack and Babel](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
