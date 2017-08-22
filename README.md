@@ -16,7 +16,7 @@ It also relies on [Jest](https://facebook.github.io/jest/) and [Enzyme](https://
 According to its documentation,
 Facebook's *create-react-app* hides the WebPack configuration file
 and other details so that developers can focus on their code.
-Instead, it provides a bevy of customizable turn-key features to allow you to optimize your app
+It provides a bevy of customizable turn-key features to allow you to optimize your app
 and make it compatible with a wide range of browsers and mobile platforms.
 Since I'm just getting started with React,
 I wanted something lightweight and transparent without a lot of opinionated "magic".
